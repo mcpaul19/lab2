@@ -44,7 +44,9 @@ public class Lab2 {
 	    // all of the wives, sacks, cats, and kittens are as well, along
 	    // with the narrator.
 	    // Calculate the number going to St. Ives
-	    total = 2 + (numWives * numSacksPerWife * numCatsPerSack * numKitsPerCat); // 2 is the narrator and husband
+	    total = 2 + (numWives)+(numWives*numSacksPerWife)+
+	    		(numWives * numSacksPerWife * numCatsPerSack)+
+	    		(numWives * numSacksPerWife * numCatsPerSack * numKitsPerCat);
 	    
 	} else {
 	    // Otherwise, only the narrator is going!
